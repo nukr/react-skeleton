@@ -1,0 +1,31 @@
+{
+  "name": "react-skeleton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run clean && mkdirp build && webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nukr/react-skeleton.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nukr/react-skeleton/issues"
+  },
+  "homepage": "https://github.com/nukr/react-skeleton#readme",
+  "dependencies": {
+    "react": "^0.14.0-rc1",
+    "react-dom": "^0.14.0-rc1"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.24",
+    "babel-loader": "^5.3.2",
+    "mkdirp": "^0.5.1",
+    "webpack": "^1.12.2"
+  }
+}
