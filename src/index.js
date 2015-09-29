@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom'
 class Test extends Component {
   render () {
     return (
-      <div>Hihi</div>
+      <div>Hihiggssss</div>
     )
   }
 }

@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "clean": "rimraf build",
+    "clean": "rimraf public/build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run clean && mkdirp build && webpack"
+    "build": "npm run clean && mkdirp public/build && webpack",
+    "server": "webpack-dev-server --watch"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
     "babel-loader": "^5.3.2",
     "mkdirp": "^0.5.1",
     "rimraf": "^2.4.3",
-    "webpack": "^1.12.2"
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.0"
   }
 }
